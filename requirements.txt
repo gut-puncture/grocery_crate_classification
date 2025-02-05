@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+google-generativeai
+opencv-python
+python-multipart
+httpx
+numpy
