@@ -1,6 +1,7 @@
 # Grocery Crate Quality Evaluator
 
-This repository provides a complete API tool to evaluate the quality of produce in a crate using Google's Gemini multi-modal model (**gemini-2.0-flash-exp**). The tool is designed for a warehouse environment where a packer can simply take a photo of a crate containing homogeneous produce (e.g., all apples or all oranges) and receive a binary "approved" or "not approved" decision based solely on the visual quality of the produce items.
+This repository provides a complete API tool to evaluate the quality of produce in a crate using Google's Gemini multi-modal model (**gemini-2.0-flash-exp**). The tool is designed for a warehouse environment where a packer can simply take a photo of a crate containing homogeneous produce (e.g., all apples or all oranges) and receive a binary "approved" or "not approved" decision based solely on the visual quality of the produce items. 
+The quality of the produce is judged based on the customer profile the crate is for. for "Premium" customers, the quality threshold is higher, compared to "General" customers.
 check out the demo here: https://huggingface.co/spaces/AngryYoungBhaloo/grocery_crate_classification
 
 ## Features
